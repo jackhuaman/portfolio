@@ -40,10 +40,10 @@
           <a class="social-link" href="http://dribbble.com/jackhuaman" target="_blank">
             <img class="social-link-image" src="img/twitter_icon.svg">
           </a>
-          <a class="social-link" href="http://github.com/jackhuaman" target="_blank">
+          <a class="social-link" href="http://github.com/jackhuamanc" target="_blank">
             <img class="social-link-image" src="img/github_icon.svg">
           </a>
-          <a class="social-link" href="http://linkedin.com/in/attasi" target="_blank">
+          <a class="social-link" href="https://dribbble.com/JackHuaman" target="_blank">
             <img class="social-link-image" src="img/dribbble_icon.svg">
           </a>
         </div>
@@ -188,7 +188,7 @@
 
 
     <section class="text_footer">
-      <H3>LOVE COLORS,  FORMS AND CODE</H3>
+      <H3>LOVE COLORS, FORMS AND CODE</H3>
     </section>
 
     <footer>
@@ -198,7 +198,7 @@
       <div class="contact">
         <p>Contact me <br>
         +51 941763410 <br>
-        <a href="#">hola.jack@gmail.com</a>
+        <a href="#">hi@jackhuaman.com</a>
         </p>
       </div>
 
