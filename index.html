@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet">
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="icon" type="image/png" href="img/favicon.ico">
 </head>
 
 <body class="body">
@@ -37,7 +37,7 @@
       </div>
 
         <div class="social">
-          <a class="social-link" href="http://dribbble.com/jackhuaman" target="_blank">
+          <a class="social-link" href="http://twitter.com/jackhuaman" target="_blank">
             <img class="social-link-image" src="img/twitter_icon.svg">
           </a>
           <a class="social-link" href="http://github.com/jackhuamanc" target="_blank">
@@ -180,12 +180,6 @@
             </div>
           </section>
           <!-- FIN PROYECTO 04 -->
-
-
-
-
-
-
 
     <section class="text_footer">
       <H3>LOVE COLORS, FORMS AND CODE</H3>
