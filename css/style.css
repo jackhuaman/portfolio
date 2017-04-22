@@ -1,0 +1,710 @@
+/* CSS Document */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline; }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+background-color: #160d50;
+background-image: url("../img/background.png");
+background-size: cover;
+
+
+}
+
+/*.wrap {
+  width: 1280px;
+  margin: 0 auto 0 auto;
+}*/
+
+p {
+  font-family: 'Cardo', serif;
+  font-size: 18px;
+  color: #FFFFFF;
+  letter-spacing: -0.1px;
+  line-height: 29px;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  /*Flex*/
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  /*también se puede usar
+  flex-flow: row wrap;*/
+}
+
+header {
+  display:block;
+  flex-wrap:wrap;
+  padding-bottom: 20px;
+  width: 85%; /*andreu*/
+  margin:0 auto; /*andreu*/
+  display: block; /*andreu*/
+  position: relative;
+}
+
+header .title {
+  border-bottom: 2px solid #7ED321;
+}
+
+h1 {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 98px;
+  color: #FFFFFF;
+  letter-spacing: -4.08px;
+  line-height: 82px;
+  margin-bottom: 30px;
+
+}
+
+h2 {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 55px;
+  color: #FFFFFF;
+  letter-spacing: -0.9px;
+  line-height: 45px;
+}
+
+h3 {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 42px;
+  color: #7ED321;
+  letter-spacing: -1.33px;
+  line-height: 85px;
+  /*text-decoration: line-through;*/
+}
+
+.subheading {
+  padding-top: 20px;
+  font-family: 'Cardo', serif;
+  font-size: 28px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 38px;
+  margin-bottom: 30px;
+}
+
+.bloque_b {
+  display: none;
+}
+
+header .social {
+  padding-top: 70px;
+  width: 100%;
+  /*flex*/
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+header .social-link {
+    padding: 10px;
+    /*FLEX*/
+    display: flex;
+    flex-grow: 1;
+}
+
+header .social-link .social-link-image {
+  flex-grow: 1;
+}
+
+.social-link:hover {
+  opacity: .8; }
+
+header .icon_scroll {
+  width: 110px;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+}
+
+/* PROYECTOS*/
+
+.proyect_1, .proyect_2 .proyect_3, .proyect_4 {
+
+  z-index: 4;
+
+}
+
+.proyect {
+  margin-bottom: 110px;
+}
+
+.content-front{/*andreu*/
+  position: relative;/*andreu*/
+  z-index: 1;/*andreu*/
+}/*andreu*/
+
+section{
+  display: block; /*andreu*/
+  width: 85%; /*andreu*/
+  margin:0 auto; /*andreu*/
+  position: relative; /*andreu*/
+}
+section .img_div {
+  text-align: center;
+}
+
+section .img_div .img_proyect {
+  box-shadow: 21px 22px 26px 0 rgba(0,6,51,0.75);
+  margin-bottom: 40px;
+  width: 90%;
+  position: relative;
+  z-index: 2;
+}
+
+section .detail_proyect {
+  background: #080139;
+  padding: 50 18;
+  margin-bottom: 200px;
+}
+
+
+.figure{
+  position: absolute;
+  z-index: 1;
+  top:80px;
+}
+.rectangle_container {
+  left:-100px;/*andreu*/
+}
+
+.circle_container {
+  right: -100px;/*andreu*/
+}
+
+.triangle_container {
+  left:-120px;/*andreu*/
+}
+
+.polygon_container {
+  right: -140px;/*andreu*/
+
+}
+
+.rectangle_container .rectangle {
+  width: 250px;
+}
+
+.circle_container .circle {
+  width: 280px;
+}
+
+.triangle_container .triangle {
+  width: 280px;
+}
+
+.polygon_container .polygon {
+  width: 320px;
+}
+
+section .detail_proyect .subheading_proyect p{
+  font-family: 'Cardo', serif;
+  font-size: 24px;
+  color: #FFFFFF;
+  letter-spacing: -0.77px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+
+section .detail_proyect .subheading_proyect img {
+  vertical-align:middle;
+  width: 7px;
+}
+
+section .title_proyect {
+  margin-bottom: 30px;
+}
+
+section .detail_proyect_1 .detail {
+  margin-bottom: 50px;
+}
+
+section .detail_proyect_2 .detail {
+  margin-bottom: 50px;
+}
+
+section .detail_proyect_3 .detail {
+  margin-bottom: 50px;
+}
+
+section .detail_proyect_4 .detail {
+  margin-bottom: 50px;
+}
+
+section .detail_proyect_1 .button_proyect {
+}
+
+section .detail_proyect_2 .button_proyect {
+}
+
+section .detail_proyect_3 .button_proyect {
+}
+
+section .detail_proyect_4 .button_proyect {
+}
+
+/*BUTTON*/
+.button_container {
+  position: relative;
+  bottom: -55px;
+  text-align: center;
+}
+
+.button {
+  border: 3px solid #C02D2D;
+  text-decoration: none;
+  color: white;
+  padding: 12px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 3.27px;
+}
+
+.button:hover {
+  border: 3px solid #7ed321;
+  padding: 12px;
+  color: #7ed321;
+}
+
+.button:active {
+  border: 3px solid #66b114;
+}
+
+
+/*FOOTER*/
+footer {
+  width: 85%;/*andreu*/
+  display: block;/*andreu*/
+  margin:0 auto;/*andreu*/
+  margin-bottom: 100px;
+}
+
+.text_footer {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.icon_arrow {
+  float: left;
+  vertical-align: bottom;
+}
+
+.contact {
+  float: right;
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+
+}
+
+@media only screen and (min-width:320px){
+
+  .bloque_a {
+    margin-top: 20px;
+  }
+
+  .figure{
+    position: absolute;
+    z-index: 1;
+    top:120px;
+  }
+
+
+  /*PROYECTS*/
+
+  .proyect {
+    margin-bottom: 0px;
+  }
+
+
+  .proyect_1 {
+    margin-bottom: 120px;
+  }
+
+
+  /*FORMS*/
+
+  .rectangle_container {
+    left:-100px;/*andreu*/
+  }
+
+  .circle_container {
+    right: -100px;/*andreu*/
+  }
+
+  .triangle_container {
+    left:-120px;/*andreu*/
+  }
+
+  .polygon_container {
+    right: -160px;/*andreu*/
+    top: -70px;
+
+  }
+
+
+
+}
+
+@media only screen and (min-width:550px){
+
+  .figure{
+    position: absolute;
+    z-index: 1;
+    top:300px;
+  }
+
+  /*PROYECT*/
+
+  .proyect {
+    margin-bottom: -20px;
+  }
+
+  .proyect_1 {
+    margin-bottom: 150px;
+  }
+
+
+
+}
+
+@media only screen and (min-width:720px){
+
+    h1 {
+      font-family: 'Pathway Gothic One', sans-serif;
+      font-size: 150px;
+      color: #FFFFFF;
+      letter-spacing: -7.92px;
+      line-height: 130px;
+      margin-bottom: 30px;
+    }
+
+    .button_container {
+      position: relative;
+      right: -45%;
+      top: 0px;
+
+      text-align: center;
+    }
+
+    header .bloque_a {
+      margin-top: 30px;
+      margin-bottom: 10px;
+      position: relative;
+    }
+
+    header .bloque_b .portrait {
+      margin-top: 100px;
+      right: -70px;
+      position: relative;
+    }
+
+    header .bloque_b .img_portrait {
+      box-shadow: 21px 22px 26px 0 rgba(0,6,51,0.75);
+      position: relative;
+      z-index: 2;
+    }
+
+    .bloque_a {
+      float: left;
+      width: 50%;
+    }
+
+    .bloque_b {
+      float: right;
+      width: 50%;
+      display: inline-block;
+    }
+
+    header .bloque_b .portrait {
+      margin-top: 100px;
+      right: 0%;
+      position: absolute;
+    }
+
+    header .icon_scroll {
+      width: 110px;
+      margin-top: 100px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 120px;
+    }
+
+/* Header form rectangle portrait*/
+    .figure_header {
+      position: absolute;
+    }
+
+    .rectangle_container_header .rectangle {
+      width: 330px;
+    }
+    .rectangle_container_header {
+      right: -100px;
+      top: 380px;
+    }
+
+/*final*/
+
+    .img_div1, .img_div3 {
+      float:left;
+      width: 40%;
+    }
+
+    .img_div2, .img_div4 {
+      float:right;
+      width: 40%;
+    }
+
+
+    .figure{
+      position: absolute;
+      z-index: 0;
+      top:-35px;
+    }
+
+    .detail_proyect_1 {
+      float: right;
+      width: 60%;
+    }
+
+    .detail_proyect_2 {
+      float: left;
+      width: 60%;
+    }
+
+    .detail_proyect_3 {
+      float: right;
+      width: 60%;
+    }
+
+    .detail_proyect_4 {
+      float: left;
+      width: 60%;
+    }
+
+    .rectangle_container .rectangle {
+      width: 450px;
+    }
+
+    .circle_container .circle {
+      width: 480px;
+    }
+
+    .triangle_container .triangle {
+      width: 520px;
+    }
+
+    .polygon_container .polygon {
+      width: 600px;
+    }
+
+    .rectangle_container {
+      left:-320px;/*andreu*/
+      top: -10%;
+    }
+
+    .circle_container {
+      right: -300px;/*andreu*/
+      top: -50px;
+    }
+
+    .triangle_container {
+      left: -320px;/*andreu*/
+      top: -20px;
+    }
+
+    .polygon_container {
+      left: 50%;
+      top: -250px;
+
+    }
+
+    footer{
+      width: 300px;
+      margin-left: 10%;
+    }
+
+}
+
+@media only screen and (min-width:960px){
+
+
+
+  header .title {
+    border-bottom: 2px solid #7ED321;
+  }
+
+  h1 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 190px;
+    color: #FFFFFF;
+    letter-spacing: -7.92px;
+    line-height: 152px;
+    margin-bottom: 30px;
+
+  }
+
+/*PROYECT*/
+
+.rectangle_container {
+  left:-230px;/*andreu*/
+  top: -100px;
+}
+
+.circle_container {
+  right: -100px;/*andreu*/
+}
+
+.triangle_container {
+  left:-120px;/*andreu*/
+}
+
+.polygon_container {
+  top: -350px;
+  right: -140px;/*andreu*/
+
+}
+
+
+
+  /*social*/
+  header .social {
+    position: absolute;
+    width: 60px;
+    right: 80px;
+
+  }
+
+  header .social-link {
+      padding: 30px;
+
+  }
+
+  header .social-link .social-link-image {
+
+  }
+
+  .social-link {
+    display: block;
+    width: 2.2rem;
+    text-align: center;
+    position: relative;
+    right: -135px;
+    z-index: 2;
+  }
+
+  .social-link:hover {
+    opacity: .8; }
+
+
+  header .icon_scroll {
+    width: 110px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 200px;
+    margin-top: 800px;
+  }
+
+  .container{
+
+  }
+
+  /*imagen header portrait*/
+
+      header .bloque_b .portrait {
+        margin-top: 100px;
+        right: 0%;
+        position: absolute;
+      }
+
+      header .bloque_b .img_portrait {
+        box-shadow: 21px 22px 26px 0 rgba(0,6,51,0.75);
+        position: relative;
+        z-index: 2;
+      }
+
+
+  /* Header form rectangle portrait*/
+      .figure_header {
+        position: absolute;
+        z-index: 0;
+      }
+
+      .rectangle_container_header .rectangle {
+        width: 330px;
+      }
+      .rectangle_container_header {
+        right: -150px;/*andreu*/
+        top: 380px;
+      }
+
+  /*final*/
+
+
+  /*PROYECT*/
+
+
+  .proyect {
+    margin-bottom: 80px;
+  }
+
+  header{
+    max-width: 1000px;
+    width: 85%;
+  }
+  section{
+    max-width: 1000px;
+    width: 85%;
+  }
+  section .content-front{
+    width: 90%
+  }
+  footer{
+    width: 300px;
+    margin-left: 18%;
+  }
+
+}
+
+
+@media only screen and (min-width:1280px) {
+
+  .social-link {
+    display: block;
+    width: 2.2rem;
+    text-align: center;
+    right: -170px;
+    z-index: 2;
+  }
+
+
+}
