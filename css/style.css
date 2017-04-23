@@ -482,11 +482,11 @@ a {
     }
 
     .rectangle_container_header .rectangle {
-      width: 330px;
+      width: 300px;
     }
     .rectangle_container_header {
-      right: -100px;
-      top: 380px;
+      right: -200px;
+      top: 350px;
     }
 
 
@@ -655,7 +655,7 @@ section .detail_proyect {
     width: 2.2rem;
     text-align: center;
     position: relative;
-    right: -135px;
+    right: -130px;
     z-index: 2;
   }
 
@@ -697,11 +697,11 @@ section .detail_proyect {
       }
 
       .rectangle_container_header .rectangle {
-        width: 330px;
+        width: 280px;
       }
       .rectangle_container_header {
-        right: -150px;/*andreu*/
-        top: 380px;
+        right: -120px;/*andreu*/
+        top: 420px;
       }
 
   /*final*/
