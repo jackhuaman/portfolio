@@ -168,10 +168,19 @@ section .img_div {
   text-align: center;
 }
 
+
+
+header .img_portrait {
+  position: absolute;
+  width: 271px;
+  height: auto;
+}
+
 section .img_div .img_proyect {
   box-shadow: 21px 22px 26px 0 rgba(0,6,51,0.75);
   margin-bottom: 40px;
   width: 90%;
+  height: auto;
   position: relative;
   z-index: 2;
 }
@@ -498,7 +507,7 @@ a {
 
     .detail_proyect_2 {
       float: left;
-      width: 60%;
+      width: 58%;
     }
 
     .detail_proyect_3 {
@@ -508,7 +517,7 @@ a {
 
     .detail_proyect_4 {
       float: left;
-      width: 60%;
+      width: 58%;
     }
 
     .rectangle_container .rectangle {
