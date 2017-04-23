@@ -2,7 +2,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
   <meta charset="UTF-8">
-  <title>Jack Huaman</title>
+  <!-- Meta Info -->
+  <meta name="description" content="Jack Portfolio">
+  <meta name="keywords" content="Loved Design">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
@@ -22,10 +27,11 @@
                 <h1>HELLO<br>I’M JACK</h1>
             </div>
               <div class="text_bloque_a">
-                  <p class="subheading">Front-End Developer and Web Designer</p>
+                  <p class="subheading">Creative and Designer Web / UI</p>
             </div>
         <p>
-        A lo largo de mi viaje de diseño, he encontrado mi nicho en la creación de herramientas que ayudan a los diseñadores con su flujo de trabajo. En Mockuuups, amigos y yo creamos una colección premium de maquetas para PS & Sketch. Más tarde, en Pond5.com, ayudé a rediseñar el mercado de la web para la creatividad. Recientemente he participado en InVision Labs, donde tengo la oportunidad de dar forma al futuro de la colaboración de diseño.</p>
+          Hello world! My name is Jack and I'm a pixel lover. I'm very passionate about finding new solutions to old problems, creating experiences that makes people happy and learning from others how to be a better designer. :) <br><br>
+          Thank you for checking me out.</p>
       </div>
       <div class="bloque_b">
         <div class="portrait">
@@ -63,16 +69,16 @@
       </div>
       <div class="content-front">
           <div class="img_div img_div1">
-              <img class="img_proyect" src="img/img_proyect1.png" alt="img proyect">
+              <img class="img_proyect" src="img/img_proyect01.jpg" alt="img proyect">
           </div>
 
           <div class="detail_proyect detail_proyect_1">
                 <div class="subheading_proyect">
-                  <p>Project &nbsp;<img src="img/dot.svg" alt="">&nbsp; Design web</p>
+                  <p>Project &nbsp;<img src="img/dot.svg" alt="">&nbsp; Design App</p>
                 </div>
 
                 <div class="title_proyect">
-                  <h2>PROYECT A</h2>
+                  <h2>QUIET CONTROL</h2>
                 </div>
                 <div class="detail">
                   <p>— One of the keys to reaching your goals is to eliminate any escape routes. It is tempting to retreat to safety and comfort.</p>
@@ -95,7 +101,7 @@
           </div>
           <div class="content-front">
               <div class="img_div img_div2">
-                <img class="img_proyect"src="img/img_proyect1.png" alt="img proyect">
+                <img class="img_proyect"src="img/img_proyect02.jpg" alt="img proyect">
               </div>
 
               <div class="detail_proyect detail_proyect_2">
@@ -104,7 +110,7 @@
                     </div>
 
                     <div class="title_proyect">
-                      <h2>PROYECT B</h2>
+                      <h2>BOOK ENJOY</h2>
                     </div>
                     <div class="detail">
                     <p>— One of the keys to reaching your goals is to eliminate any escape routes. It is tempting to retreat to safety and comfort.</p>  </div>
@@ -126,7 +132,7 @@
           </div>
           <div class="content-front">
               <div class="img_div img_div3">
-                <img class="img_proyect"src="img/img_proyect1.png" alt="img proyect">
+                <img class="img_proyect"src="img/img_proyect03.jpg" alt="img proyect">
               </div>
 
               <div class="detail_proyect detail_proyect_3">
@@ -135,7 +141,7 @@
                     </div>
 
                     <div class="title_proyect">
-                      <h2>PROYECT C</h2>
+                      <h2>CALENDAR DAY</h2>
                     </div>
                     <div class="detail">
                     <p>— One of the keys to reaching your goals is to eliminate any escape routes. It is tempting to retreat to safety and comfort.</p>  </div>
@@ -158,7 +164,7 @@
             </div>
             <div class="content-front">
                 <div class="img_div img_div4">
-                    <img class="img_proyect"src="img/img_proyect1.png" alt="img proyect">
+                    <img class="img_proyect"src="img/img_proyect04.jpg" alt="img proyect">
                 </div>
 
                 <div class="detail_proyect detail_proyect_4">
@@ -167,7 +173,7 @@
                       </div>
 
                       <div class="title_proyect">
-                        <h2>PROYECT D</h2>
+                        <h2>POSTER SERIES</h2>
                       </div>
                       <div class="detail">
                       <p>— One of the keys to reaching your goals is to eliminate any escape routes. It is tempting to retreat to safety and comfort.</p>  </div>
@@ -180,6 +186,7 @@
             </div>
           </section>
           <!-- FIN PROYECTO 04 -->
+
 
     <section class="text_footer">
       <H3>LOVE COLORS, FORMS AND CODE</H3>
