@@ -168,8 +168,6 @@ section .img_div {
   text-align: center;
 }
 
-
-
 header .img_portrait {
   position: absolute;
   width: 271px;
@@ -406,8 +404,10 @@ a {
 
 }
 
-@media only screen and (min-width:720px){
 
+
+@media only screen and (min-width:730px){
+/*720px*/
     h1 {
       font-family: 'Pathway Gothic One', sans-serif;
       font-size: 150px;
