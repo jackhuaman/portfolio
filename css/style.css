@@ -425,6 +425,14 @@ a {
       text-align: center;
     }
 
+    header .social-link {
+        margin-top: 20px;
+        padding: 10px;
+        /*FLEX*/
+        display: flex;
+        flex-grow: 1;
+    }
+
     header .bloque_a {
       margin-top: 30px;
       margin-bottom: 10px;
@@ -671,7 +679,7 @@ section .detail_proyect {
 
       header .bloque_b .portrait {
         margin-top: 100px;
-        right: 0%;
+        right: 7%;
         position: absolute;
       }
 
@@ -731,9 +739,10 @@ section .detail_proyect {
     display: block;
     width: 2.2rem;
     text-align: center;
-    right: -170px;
+    right: -140px;
     z-index: 2;
   }
+
 
 
 }
