@@ -30,7 +30,7 @@
                   <p class="subheading">Creative and Designer Web / UI</p>
             </div>
         <p>
-          Hello world! My name is Jack and I'm a pixel lover. I'm very passionate about finding new solutions to old problems, creating experiences that makes people happy and learning from others how to be a better designer. :) <br><br>
+          Hello world! My name is Jack and I'm a pixel lover. I'm very passionate about finding new solutions to old problems, creating experiences that makes people happy and learning from others how to be a better designer. :) <br><br><br>
           Thank you for checking me out.</p>
       </div>
       <div class="bloque_b">
@@ -199,7 +199,7 @@
       <div class="contact">
         <p>Contact me <br>
         +51 941763410 <br>
-        <a href="#">hi@jackhuaman.com</a>
+        <a href="mailto:hola.jack@gmail.com">hi@jackhuaman.com</a>
         </p>
       </div>
 
@@ -210,6 +210,7 @@
   <script src="js/jquery-2.1.3.min.js"></script>
   <script src="js/functions.js"></script>
 
+    <p class="footer-text">© 2017 Nōtan / Krukmakargatan 22, 118 51 Lima, Perú </p>
 </body>
 
 
