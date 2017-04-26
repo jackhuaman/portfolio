@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="830px" height="844px" viewBox="0 0 830 844" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>polygon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-10.4%" y="-6.3%" width="123.9%" height="125.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="12" dy="52" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="21.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.17 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="polygon" filter="url(#filter-1)" transform="translate(25.000000, 0.000000)" fill-rule="nonzero" fill="#7ED321">
+            <path d="M378,49.74874 L50.217932,377.53081 L378,705.31287 L705.78207,377.53081 L378,49.74874 Z M755.27954,377.53081 L378,754.81035 L0.720457,377.53081 L378,0.25126 L755.27954,377.53081 Z" id="Polygon"></path>
+        </g>
+    </g>
+</svg>

@@ -175,12 +175,14 @@ header .img_portrait {
 }
 
 section .img_div .img_proyect {
-  box-shadow: 21px 22px 26px 0 rgba(0,6,51,0.75);
+  box-shadow: 21px 22px 26px -4px rgba(0,6,51,0.60);
   margin-bottom: 40px;
   width: 100%;
   height: auto;
   position: relative;
   z-index: 2;
+
+
 }
 
 section .detail_proyect {
