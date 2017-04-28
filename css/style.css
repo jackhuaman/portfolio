@@ -336,7 +336,10 @@ a {
 }
 
 .footer-text {
+  font-family: sans-serif;
   text-align: center;
+  font-size: 12px;
+  letter-spacing: 1px;
   color: rgb(84, 56, 223);
   margin-bottom: 30px;
 }
